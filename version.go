@@ -3034,7 +3034,7 @@ func (v qrCodeVersion) symbolSize() int {
 // quietZoneSize returns the number of pixels of border space on each side of
 // the QR Code. The quiet space assists with decoding.
 func (v qrCodeVersion) quietZoneSize() int {
-	return 2
+	return 0
 }
 
 // getQRCodeVersion returns the QR Code version by version number and recovery
